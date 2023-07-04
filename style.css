@@ -359,10 +359,258 @@ body{
     border: 1px #fff solid ;
 }
 
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
 
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url("Image/banner/b7.jpg");
+    width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+}
 
+#banner3 h3{
+    color: #ed322bea;
+    font-weight: 800;
+    font-size: 15px;
+}
 
+#banner3 .banner-box2{
+    background-image: url("Image/banner/b4.jpg");
+}
+
+#banner3 .banner-box3{
+    background-image: url("Image/banner/b18.jpg");
+}
+
+#newsletter{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     align-items: center;
+     background-image: url("Image/banner/b14.png");
+     background-repeat: no-repeat;
+     background-position: 20% 30%;
+     background-color: #041e42;
+}
+
+#newsletter h4{
+    font-size:  22px;
+    font-weight: 700;
+    color: #fff;
+}
+#newsletter p{
+    font-size:  16px;
+    font-weight: 600;
+    color: #818ea0;
+}
+#newsletter p span  {
+    color: #ffbd27;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start ;
+   margin-bottom: 20px;
+} 
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;   
+}
+footer .follow i{
+    color: #5f3d8f;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+   border: 1px solid #088178; 
+   border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #341b57;
+    font-weight: bolder;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+/* ---------------------Shop Page -----------------------------------------------*/
+
+#page-header{
+    background-image: url("Image/banner/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p{
+    color: #fff;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #341b57;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*------------Single Product-------------------*/
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-image{
+    width: 60%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+    width: 50;
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+    color: #241932;
+}
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+    color: #088178;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    outline: auto;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 42px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    background: #088178;
+    color: #fff;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
 
 
 
